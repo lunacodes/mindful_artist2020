@@ -1,0 +1,1 @@
+<time class="updated" datetime="<?php echo get_the_time('c'); ?>" pubdate><i class="fa fa-calendar"></i> <?php echo get_the_date(); ?> | <i class="fa fa-comments"></i> <a href="<?php echo get_permalink(); ?>#commentanchor">Leave a Comment</a></time>

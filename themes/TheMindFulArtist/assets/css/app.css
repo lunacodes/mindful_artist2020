@@ -1,0 +1,906 @@
+/* ==========================================================================
+   Workshop Post Type
+   ========================================================================== */
+
+.page-template-workshops-php article img {
+	border: 1px solid grey;
+	padding: 4px;
+	box-shadow: 1px 3px 15px grey;
+}
+
+.page-template-workshops-php article {
+	display: inline;
+	float: left;
+	width: 42%;
+	padding-right: 55px;
+	min-height: 325px;
+}
+
+.page-template-workshops-php h2 {
+	font-size: 16px;
+	font-family: swagger;
+	text-align: center;
+}
+
+.page-template-workshops-php .entry-title {
+	font-family: swagger;
+	color: #fc6a00;
+}
+
+.page-template-workshops-php h1 {
+	font-family: swagger;
+	color: #fc6a00;
+}
+
+/* ==========================================================================
+   Video Post Type
+   ========================================================================== */
+.entry-tags {
+	margin: 0 !important;
+}
+
+#archivevideos article img {
+	border: 1px solid grey;
+	padding: 4px;
+	box-shadow: 1px 3px 15px grey;
+}
+
+#archivevideos article {
+	display: inline !important;
+	float: left !important;
+	width: 30% !important;
+	padding: 11px !important;
+	min-height: 270px;
+}
+
+#archivevideos h2 {
+	font-size: 16px !important;
+	font-family: swagger !important;
+	text-align: center !important;
+	color: #08c !important;
+	background: none !important;
+	height: auto !important;
+	text-indent: 0px !important;
+}
+
+#archivevideos h2 a {
+	color: #08c !important;
+	position: relative  !important;
+	top: 0px !important;
+	border-left: none !important;
+	border-right: none !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+
+}
+
+#videointo {
+	color: #fc6a00;
+	padding-bottom: 15px;
+}
+
+#video-container {
+	max-width: 700px;
+	overflow: hidden;
+}
+
+.video .entry-title {
+	font-family: swagger;
+	color: #fc6a00;
+}
+
+/* ==========================================================================
+   Front Page
+   ========================================================================== */
+
+.entry-tags li {
+	list-style-image: none;
+	list-style: none;
+	display: inline;
+	padding-right: 10px;
+}
+
+
+#homevideo {
+
+}
+
+#homebuttons {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.homebutton {
+	float: left;
+}
+
+#featured-area {
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+@font-face { font-family: swagger; src: url('fonts/Swagger.ttf'); }
+@font-face { font-family: Gill Sans; src: url('fonts/gillsans.ttf'); }
+
+iframe, .comment {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+h2, h3, h4, h5 {
+	font-family: swagger;
+	color: #73c4e3;
+}
+
+body {
+	font-size: 16px;
+}
+
+.comment {}
+
+h2 {
+	font-size: 21px;
+	line-height: 30px;
+}
+
+h3 {
+	font-size: 18.5px;
+	line-height: 23px;
+}
+
+.entry-summary .chicklets {
+	float: left !important;
+}
+
+.addthis_toolbox {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.page-header {
+	font-family: swagger;
+	color: #fc6a00;
+}
+
+.hentry time {
+	line-height: 40px;
+	font-size: 12px;
+}
+
+h1 {
+	font-size: 27px;
+	line-height: 32px;
+}
+
+.content li {
+	list-style-image: url(/assets/bullet.png);
+	line-height: 25px;
+}
+
+.content {
+	font-family: Verdana;
+	color:	#666666;
+}
+
+.commentcontainer iframe {
+	max-width: 100%;
+	height: auto !important;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+/* ==========================================================================
+   Blog
+   ========================================================================== */
+
+.blog .page-header {
+	display: none;
+}
+
+.blog header h2 {
+	font-family: swagger;
+	background: #73c4e3;
+	font-size: 22px;
+	text-indent: 15px;
+	height: 31px;
+	line-height: 37px;
+}
+
+.blog header h2 a {
+	position: relative;
+	top: -3px;
+	color: white;
+	font-weight: lighter;
+	border-left: solid 2px white;
+	border-right: solid 2px white;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 37px;
+}
+
+.blog .main {
+	margin-top: 30px;
+}
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+.banner { }
+
+
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { }
+
+
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+
+
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+
+.nav {
+	margin-left:55px;
+	font-family: gill sans;
+	font-size: 12pt;
+	text-transform: lowercase;
+}
+
+.nav-pills>.active>a, .nav-pills>.active>a:hover, .nav-pills>.active>a:focus, .nav>li>a:hover, .nav>li>a:focus {
+	background-color: none !important;
+	background: none;
+	color: #4fa4c1;
+}
+
+.nav-pills>.active>a, .nav-pills>.active>a:hover, .nav-pills>.active>a:focus, .nav>li>a:hover, .nav>li>a:focus {
+	background-color: none !important;
+	background: none;
+	color: #fc6a00;
+}
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar {
+	color: #666666;
+	font-family: Gill Sans;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+.widget_text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.textwidget {
+	background: #ebfdfd;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#social-icons {
+  clear: both;
+	float: right;
+}
+
+.workshops-ecourses #social-icons {
+  display: none;
+}
+
+.sidebar input {
+	/* background: #73c4e3; */
+	border: none;
+	width: 75%;
+}
+
+
+.sidebar input[type="submit"] {
+  border: 0;
+}
+
+.sidebar input[type="text"] {
+  border: 1px solid #ccc;
+}
+
+.sidebar #s {
+	width: 50%;
+	border-radius: 0;
+	color:black !important;
+}
+
+.sidebar #s placeholder {
+	text-indent: -99999px;
+}
+
+.sidebar #searchsubmit {
+text-indent: -99999px;
+background: url(/assets/search.png) no-repeat;
+width: 30%;
+}
+
+.archive h2 {
+	font-family: swagger;
+	background: #73c4e3;
+	font-size: 22px;
+	text-indent: 15px;
+	height: 31px;
+	text-align: left;
+}
+
+.archive h2 a {
+	position: relative;
+	top: -3px;
+	color: white;
+	font-weight: lighter;
+	border-left: solid 2px white;
+	border-right: solid 2px white;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+}
+
+#searchform {
+	text-align: center;
+}
+
+.widget {
+	margin-bottom: 15px;
+}
+
+.widget h3 {
+	background: #73c4e3;
+	text-indent: 15px;
+	color: white;
+	font-family: Gill Sans;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+.widget_categories, .widget_archive {
+	background: #ebfdfd;
+	padding-bottom: 3px;
+}
+
+.widget_categories li, .widget_archive li {
+	margin-left: 13px;
+}
+
+.alignright {
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+}
+
+.alignleft {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+.single-post .entry-title {
+font-family: swagger;
+background: #73c4e3;
+font-size: 19px;
+text-indent: 15px;
+height: 31px;
+line-height: 37px;
+color: white !important;
+}
+
+.single-post .entry-title h1 {
+	position: relative;
+	top: -3px;
+	color: white;
+	font-weight: lighter;
+	border-left: solid 2px white;
+	border-right: solid 2px white;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 37px;
+}
+
+.post-nav {
+  clear: both;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info { }
+
+
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+/* ==========================================================================
+   WP Admin Bar Fix
+   ========================================================================== */
+
+#wpadminbar .quicklinks {
+  justify-content: space-between;
+}
+
+#wpadminbar .quicklinks,
+#wpadminbar .quicklinks > ul {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  min-width: 0 !important;
+}
+
+#wpadminbar #wp-admin-bar-top-secondary {
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+#wpadminbar .quicklinks > ul > li {
+  float: none !important;
+}
+
+#wpadminbar .quicklinks > ul > li,
+#wpadminbar .quicklinks .ab-item {
+  max-width: 100px;
+  min-width: 0 !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#wpadminbar .quicklinks .ab-item {
+  overflow: hidden;
+}
+
+#wpadminbar .quicklinks .ab-item .ab-label,
+#wpadminbar .quicklinks .ab-item .display-name {
+  display: inline;
+  float: none;
+}
+
+/* Media Query - Min-Width: 1061px */
+@media only screen and (min-width: 66.3125em) {
+  #wpadminbar .quicklinks > ul > li,
+  #wpadminbar .quicklinks .ab-item {
+    max-width: initial;
+    text-overflow: clip;
+  }
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+.entry-summary div {
+  max-width: 100%;
+}
+
+ul.entry-tags {
+  max-width: 100%;
+  word-break: break-all;
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .banner,
+  #mainbanner,
+  .row,
+  .content.row,
+  .content-info {
+    margin: 0 auto;
+    max-width: 98%;
+  }
+
+  .nav {
+    margin: 0 0 20px 20px;
+    max-width: 98%;
+  }
+
+  .main {
+    width: 70%;
+  }
+
+  .sidebar {
+    width: 24%;
+  }
+
+  .blog .main {
+    margin: 30px 0 0 10px;
+  }
+
+  .sidebar #searchsubmit{
+    width: 66px;
+  }
+
+  .widget_categories li,
+  .widget_archive li {
+    font-size: 14px;
+    line-height: 1.625;
+  }
+
+  .widget_categories li::before,
+  .widget_archive li::before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-image: url('/assets/bullet.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 10px 0 -32px;
+    position: relative;
+    top: 4px;
+  }
+
+  .widget_categories li,
+  .widget_archive li {
+    list-style-image: none;
+    list-style-type: none;
+    padding: 0 2px 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body.category-video .sidebar {
+    margin: 0 10px;
+  }
+  body.testimonials table {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .nav {
+    margin: 0 0 0 20px;
+  }
+
+  .main {
+    width: 66%;
+  }
+
+  .sidebar {
+    width: 27%;
+  }
+  .widget_categories li,
+  .widget_archive li {
+    font-size: 13px;
+    line-height: 1.625;
+  }
+
+  .sidebar #s {
+    width: 86%;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .banner,
+  #mainbanner,
+  .row,
+  .content.row {
+    margin: 0 auto;
+    max-width: 98%;
+  }
+
+  .nav {
+    margin: 0 0 20px 20px;
+    max-width: 96%;
+  }
+
+  .main {
+    float: none;
+    margin: 0 auto;
+    width: 96%;
+  }
+
+  .sidebar {
+    clear: both;
+    float: none;
+    margin: 0 auto;
+    width: 96%;
+  }
+
+  .widget_categories li,
+  .widget_archive li {
+    font-size: 15px;
+    line-height: 1.625;
+  }
+
+  .widget_search {
+    max-width: 96%;
+  }
+
+  #searchform {
+    width: 85%;
+    text-align: left;
+    display: inline-block;
+    margin: 0 0 0 10%;
+  }
+
+  #searchform label {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  body.category-video .sidebar {
+    float: right;
+  }
+
+  .sidebar #s {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .sidebar #searchsubmit {
+    display: inline-block;
+    width: 70px;
+    height: 26px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .blog header h2 {
+    height: auto;
+    min-height: 31px;
+  }
+
+  #wpadminbar {
+  	/* overflow: hidden; */
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .container {
+    max-width: 99%;
+  }
+
+  .blog header h2 {
+    padding: 0 2px;
+  }
+
+  .sidebar #searchform {
+    margin: 10px 0 0 5%;
+    width: 100%;
+  }
+
+  .sidebar #searchform label {
+    display: inline-block;
+  }
+
+  .sidebar #s {
+    display: inline-block;
+    width: auto;
+  }
+
+  .sidebar #searchsubmit {
+    display: block;
+    width: 70px;
+    height: 26px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sidebar #s {
+    width: 68%;
+  }
+
+  .sidebar #searchsubmit {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .sidebar #s {
+    width: auto;
+  }
+}
+
+
+/* ==========================================================================
+   Workshops E-Courses
+   ========================================================================== */
+@media screen and (max-width: 960px) {
+.page-template-workshops-php article {
+  display: flex;
+  justify-content: center;
+  width: 39%;
+  text-align: center;
+  padding: 0;
+  margin: 0 55px 0 0;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  .page-template-workshops-php article {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .page-template-workshops-php article {
+    display: inline-flex;
+    margin: 0 5%;
+    width: 40%;
+  }
+
+  .page-template-workshops-php article .hentry header {
+    align-self: baseline;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .page-template-workshops-php article {
+    justify-content: center;
+  }
+
+  .page-template-workshops-php article .hentry header {
+    clear: both;
+  }
+
+}
+
+@media screen and (max-width: 475px) {
+  .page-template-workshops-php article {
+    clear: both;
+    width: 90%;
+    margin: 0 0 0 5%;
+  }
+
+}
+
+/* ==========================================================================
+   Videos
+   ========================================================================== */
+
+@media screen and (max-width: 960px) {
+  #archivevideos {
+    margin: 0 5%;
+    width: 35%;
+    display: inline-flex;
+  }
+
+    #archivevideos article {
+      width: auto !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  #archivevideos {
+    display: inline;
+    margin: 0 auto;
+  }
+  #archivevideos article {
+    width: 44% !important;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  #archivevideos article {
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #archivevideos article {
+    width: 45% !important;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  #archivevideos article {
+    justify-content: center;
+    margin: 0 4%;
+    text-align: left !important;
+    width: 90% !important;
+  }
+
+  #archivevideos .hentry header {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #archivevideos article {
+    margin: 0 3%;
+  }
+
+@media screen and (max-width: 375px) {
+  #archivevideos article {
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+/**
+ * Luna Code 3/13/2020
+ */
+
+.widget img {
+  height: 90px;
+  /*   max-width: 50%; */
+}
+
+.widget-1 .widget-inner .textwidget div:first-of-type p:first-of-type {
+  font-weight: 600;
+}
+
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+aside.sidebar.span3 {
+  width: 270px;
+}
+
+#mainbanner img {
+  width: 1000px;
+  height: 155px;
+}
+
+#social-icons {
+  display: none;
+}
+
+ul#menu-primary-navigation {margin: 0 auto;}
+
+li.menu-twitter a, li.menu-instagram a {
+  padding: 0 2px;
+}
