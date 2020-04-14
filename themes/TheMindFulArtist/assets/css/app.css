@@ -1,3 +1,26 @@
+/* Table of Content
+
+  - Workshop Post Type
+  - Video Post Type
+  - Front Page
+  - Base
+  - Blog
+  - Header
+  - Content
+  - Primary Content
+  - Nav
+  - Sidebar
+  - Posts
+  - Footer
+  - WordPress Generated Classes
+  - WP Admin Bar Fix
+  - Media Queries
+  - Workshops E-Courses
+  - Videos
+
+*/
+
+
 /* ==========================================================================
    Workshop Post Type
    ========================================================================== */
@@ -237,8 +260,11 @@ iframe {
    Header
    ========================================================================== */
 
-.banner { }
-
+#mainbanner img {
+  height: 152px;
+  max-width: unset;
+  width: 1024px;
+}
 
 
 /* ==========================================================================
@@ -406,6 +432,13 @@ padding-right: 10px;
 padding-bottom: 10px;
 }
 
+/**
+ * Widget Images
+ */
+
+ .widget-1 img {
+   height: 100px;
+ }
 
 /* ==========================================================================
    Posts
@@ -870,45 +903,4 @@ ul.entry-tags {
   #archivevideos article {
     margin: 0 auto;
   }
-}
-
-
-
-
-
-/**
- * Luna Code 3/13/2020
- */
-
-.widget img {
-  height: 90px;
-  /*   max-width: 50%; */
-}
-
-.widget-1 .widget-inner .textwidget div:first-of-type p:first-of-type {
-  font-weight: 600;
-}
-
-.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
-  width: 1020px;
-  margin: 0 auto;
-}
-
-aside.sidebar.span3 {
-  width: 270px;
-}
-
-#mainbanner img {
-  width: 1000px;
-  height: 155px;
-}
-
-#social-icons {
-  display: none;
-}
-
-ul#menu-primary-navigation {margin: 0 auto;}
-
-li.menu-twitter a, li.menu-instagram a {
-  padding: 0 2px;
 }
