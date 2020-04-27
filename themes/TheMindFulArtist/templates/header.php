@@ -1,7 +1,7 @@
 <header class="banner" role="banner">
   <div class="container">
   <div id="mainbanner">
-	  <img src="/assets/banner.png">
+    <img src="/assets/banner.png">
   </div>
     <nav class="nav-main" role="navigation">
       <?php
@@ -12,3 +12,4 @@
     </nav>
   </div>
 </header>
+

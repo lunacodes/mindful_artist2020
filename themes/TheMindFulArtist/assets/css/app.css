@@ -192,6 +192,7 @@ h3 {
 .page-header {
 	font-family: swagger;
 	color: #fc6a00;
+  margin: 0 0 30px;
 }
 
 .hentry time {
@@ -288,10 +289,14 @@ iframe {
    ========================================================================== */
 
 .nav {
-	margin-left:55px;
-	font-family: gill sans;
-	font-size: 12pt;
-	text-transform: lowercase;
+  align-items: baseline;
+  display: flex;
+  font-family: gill sans;
+  font-size: 12pt;
+  justify-content: center;
+  /* margin-left:55px; */
+  margin: 0 auto 20px;
+  text-transform: lowercase;
 }
 
 .nav-pills>.active>a, .nav-pills>.active>a:hover, .nav-pills>.active>a:focus, .nav>li>a:hover, .nav>li>a:focus {
@@ -304,6 +309,12 @@ iframe {
 	background-color: none !important;
 	background: none;
 	color: #fc6a00;
+}
+
+.nav-pills>li:nth-last-of-type(2)>a {
+  /* margin: 0; */
+  margin: 0 0 0 4px;
+  padding: 8px 0;
 }
 
 /* ==========================================================================
@@ -433,12 +444,17 @@ padding-bottom: 10px;
 }
 
 /**
- * Widget Images
+ * Widget Images & Padding
  */
 
  .widget-1 img {
-   height: 100px;
- }
+   /* height: 100px; */
+  height: 90px;
+}
+
+/* .widget-1 .textwidget {
+  padding: 0 10px 15px;
+} */
 
 /* ==========================================================================
    Posts
@@ -556,8 +572,34 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    Media Queries
    ========================================================================== */
 
+@media only screen and (max-width: 1024px) {
+  
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+  max-width: 96vw;
+/*   max-width: 100%; */
+/*   max-width: 992px; */
+  max-width: 96%;
+  margin: 0 auto;
+}
+
+#mainbanner img {
+/*   max-width: 100%; */
+  max-width: 992px;
+  max-width: 96vw;
+  max-width: 96%;
+}
+
+.sidebar {
+  width: 26%;
+}
+
+}
+
+.blog .main {width: 70%;}
+
 .entry-summary div {
   max-width: 100%;
+}
 }
 
 ul.entry-tags {
