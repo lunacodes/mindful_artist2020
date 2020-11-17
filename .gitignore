@@ -12,6 +12,8 @@ themes/twentythirteen/
 uploads/
 w3tc-config/
 *.swp*
-*.bak*
+*bak*
 error_log
-
+vendor
+wp-cli.yml
+README_LUNA.md
