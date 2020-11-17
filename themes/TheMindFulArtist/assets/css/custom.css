@@ -1,0 +1,145 @@
+@media only screen and (max-width: 1200px) {
+
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container,
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 96vw;
+    /*     max-width: 94vw; */
+    margin: 0 auto;
+    /*     border: 1px solid green; */
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  #mainbanner img {
+    /*     max-width: 96%; */
+    max-width: unset;
+    width: 100%;
+    /* object-fit: cover; */
+    /* object-position: left; */
+  }
+
+  .sidebar {
+    width: 25%;
+    float: right;
+  }
+
+  .blog .main {
+    width: 66%;
+  }
+}
+
+body.mob-menu-overlay,
+body.mob-menu-slideout,
+body.mob-menu-slideout-over,
+body.mob-menu-slideout-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div#mainbanner {
+  /*   border: 1px solid red; */
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    max-width: 94vw;
+  }
+
+  .nav-tabs>li>a,
+  .nav-pills>li>a {
+    padding: 8px 10px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .main {
+    width: 66%;
+  }
+
+  .sidebar {
+    width: 29%;
+  }
+}
+
+#homevideo iframe {
+  padding: 0;
+}
+
+@media only screen and (max-width: 920px) {
+
+  .banner,
+  #mainbanner,
+  .row,
+  .content.row,
+  .content-info {
+    margin: 0 auto 20px;
+    max-width: 100%;
+  }
+
+  .content.row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main {
+    width: 70%;
+    margin: 0;
+  }
+
+  .sidebar {
+    width: 26%;
+  }
+
+  #mainbanner img {
+    object-fit: cover;
+    object-position: left;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  .content.row {
+    flex-wrap: wrap;
+  }
+
+  .main,
+  .sidebar {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  /*   .banner,  */
+  /* #mainbanner,  */
+  .row,
+  .content.row,
+  .content-info {
+    max-width: 96%;
+  }
+
+}
+
+
+#homebuttons {
+  display: flex;
+  float: none;
+  justify-content: flex-start;
+}
+

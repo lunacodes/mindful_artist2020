@@ -1,4 +1,4 @@
-<?php /* Template Name: Video Page */ 
+<?php /* Template Name: Video Page */
 
 if (!have_posts()) : ?>
   <div class="alert">
@@ -8,11 +8,11 @@ if (!have_posts()) : ?>
   <?php get_search_form(); ?>
 <?php endif; ?>
 <div id="videointo">
-click on a video to watch it !  
+click on a video to watch it !
 </div>
 <?php query_posts( 'cat=3&posts_per_page=200' ); ?>
 <?php while (have_posts()) : the_post(); ?>
-	<div id="archivevideos">
+	<div id="archivevideos" class="archivevideos">
 <article <?php post_class(); ?>>
     <header>
 	<?php
@@ -21,7 +21,7 @@ click on a video to watch it !
 		$img_url = wp_get_attachment_url( $thumb,'full' ); //get full URL to image (use "large" or "medium" if the images too big)
 		$image = aq_resize( $img_url, 200, 150, true ); //resize & crop the image
 
-	?>  
+	?>
 	<?php if($image) : ?>
 		<a href="<?php the_permalink(); ?>"><img src="<?php echo $image ?>"/></a>
 	<?php endif; ?>

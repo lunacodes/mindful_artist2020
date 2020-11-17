@@ -1,0 +1,17 @@
+*_archive*
+backupwordpress-1e5f4b364b-backups/
+cache/
+index.php
+mu-plugins/
+plugins/
+themes/index.php
+themes/twentyfifteen/
+themes/twentyfourteen/
+themes/twentynineteen/
+themes/twentythirteen/
+uploads/
+w3tc-config/
+*.swp*
+*.bak*
+error_log
+

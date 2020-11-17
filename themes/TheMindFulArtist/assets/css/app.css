@@ -26,90 +26,90 @@
    ========================================================================== */
 
 .page-template-workshops-php article img {
-	border: 1px solid grey;
-	padding: 4px;
-	box-shadow: 1px 3px 15px grey;
+  border: 1px solid grey;
+  padding: 4px;
+  box-shadow: 1px 3px 15px grey;
 }
 
 .page-template-workshops-php article {
-	display: inline;
-	float: left;
-	width: 42%;
-	padding-right: 55px;
-	min-height: 325px;
+  display: inline;
+  float: left;
+  width: 42%;
+  padding-right: 55px;
+  min-height: 325px;
 }
 
 .page-template-workshops-php h2 {
-	font-size: 16px;
-	font-family: swagger;
-	text-align: center;
+  font-size: 16px;
+  font-family: swagger;
+  text-align: center;
 }
 
 .page-template-workshops-php .entry-title {
-	font-family: swagger;
-	color: #fc6a00;
+  font-family: swagger;
+  color: #fc6a00;
 }
 
 .page-template-workshops-php h1 {
-	font-family: swagger;
-	color: #fc6a00;
+  font-family: swagger;
+  color: #fc6a00;
 }
 
 /* ==========================================================================
    Video Post Type
    ========================================================================== */
 .entry-tags {
-	margin: 0 !important;
+  margin: 0 !important;
 }
 
 #archivevideos article img {
-	border: 1px solid grey;
-	padding: 4px;
-	box-shadow: 1px 3px 15px grey;
+  border: 1px solid grey;
+  padding: 4px;
+  box-shadow: 1px 3px 15px grey;
 }
 
 #archivevideos article {
-	display: inline !important;
-	float: left !important;
-	width: 30% !important;
-	padding: 11px !important;
-	min-height: 270px;
+  display: inline !important;
+  float: left !important;
+  width: 30% !important;
+  padding: 11px !important;
+  min-height: 270px;
 }
 
 #archivevideos h2 {
-	font-size: 16px !important;
-	font-family: swagger !important;
-	text-align: center !important;
-	color: #08c !important;
-	background: none !important;
-	height: auto !important;
-	text-indent: 0px !important;
+  font-size: 16px !important;
+  font-family: swagger !important;
+  text-align: center !important;
+  color: #08c !important;
+  background: none !important;
+  height: auto !important;
+  text-indent: 0px !important;
 }
 
 #archivevideos h2 a {
-	color: #08c !important;
-	position: relative  !important;
-	top: 0px !important;
-	border-left: none !important;
-	border-right: none !important;
-	padding-left: 0px !important;
-	padding-right: 0px !important;
+  color: #08c !important;
+  position: relative  !important;
+  top: 0px !important;
+  border-left: none !important;
+  border-right: none !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 
 }
 
 #videointo {
-	color: #fc6a00;
-	padding-bottom: 15px;
+  color: #fc6a00;
+  padding-bottom: 15px;
 }
 
 #video-container {
-	max-width: 700px;
-	overflow: hidden;
+  max-width: 700px;
+  overflow: hidden;
 }
 
 .video .entry-title {
-	font-family: swagger;
-	color: #fc6a00;
+  font-family: swagger;
+  color: #fc6a00;
 }
 
 /* ==========================================================================
@@ -117,10 +117,10 @@
    ========================================================================== */
 
 .entry-tags li {
-	list-style-image: none;
-	list-style: none;
-	display: inline;
-	padding-right: 10px;
+  list-style-image: none;
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
 }
 
 
@@ -128,13 +128,18 @@
 
 }
 
+#homevideo iframe {
+  /* padding: 0; */
+  padding: 12px 0 25px;
+}
+
 #homebuttons {
-	margin: 0 auto;
-	width: 100%;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .homebutton {
-	float: left;
+  float: left;
 }
 
 #featured-area {
@@ -154,74 +159,78 @@
   width: 1024px;
 }
 
+.wrap .container {
+  width: 1024px;
+}
+
 iframe, .comment {
-	padding-top: 25px;
-	padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 h2, h3, h4, h5 {
-	font-family: swagger;
-	color: #73c4e3;
+  font-family: swagger;
+  color: #73c4e3;
 }
 
 body {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 .comment {}
 
 h2 {
-	font-size: 21px;
-	line-height: 30px;
+  font-size: 21px;
+  line-height: 30px;
 }
 
 h3 {
-	font-size: 18.5px;
-	line-height: 23px;
+  font-size: 18.5px;
+  line-height: 23px;
 }
 
 .entry-summary .chicklets {
-	float: left !important;
+  float: left !important;
 }
 
 .addthis_toolbox {
-	margin-top: 20px;
-	margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .page-header {
-	font-family: swagger;
-	color: #fc6a00;
+  font-family: swagger;
+  color: #fc6a00;
   margin: 0 0 30px;
 }
 
 .hentry time {
-	line-height: 40px;
-	font-size: 12px;
+  line-height: 40px;
+  font-size: 12px;
 }
 
 h1 {
-	font-size: 27px;
-	line-height: 32px;
+  font-size: 27px;
+  line-height: 32px;
 }
 
 .content li {
-	list-style-image: url(/assets/bullet.png);
-	line-height: 25px;
+  list-style-image: url(/assets/bullet.png);
+  line-height: 25px;
 }
 
 .content {
-	font-family: Verdana;
-	color:	#666666;
+  font-family: Verdana;
+  color:  #666666;
 }
 
 .commentcontainer iframe {
-	max-width: 100%;
-	height: auto !important;
+  max-width: 100%;
+  height: auto !important;
 }
 
 iframe {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 /* ==========================================================================
@@ -229,37 +238,45 @@ iframe {
    ========================================================================== */
 
 .blog .page-header {
-	display: none;
+  display: none;
 }
 
 .blog header h2 {
-	font-family: swagger;
-	background: #73c4e3;
-	font-size: 22px;
-	text-indent: 15px;
-	height: 31px;
-	line-height: 37px;
+  font-family: swagger;
+  background: #73c4e3;
+  font-size: 22px;
+  text-indent: 15px;
+  height: 31px;
+  line-height: 37px;
+  margin: 0 0 10px;
 }
 
 .blog header h2 a {
-	position: relative;
-	top: -3px;
-	color: white;
-	font-weight: lighter;
-	border-left: solid 2px white;
-	border-right: solid 2px white;
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 37px;
+  position: relative;
+  top: -3px;
+  color: white;
+  font-weight: lighter;
+  border-left: solid 2px white;
+  border-right: solid 2px white;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 37px;
 }
 
 .blog .main {
-	margin-top: 30px;
+  /* margin-top: 30px; */
+  margin: 10px 0 20px 20px;
+  /* width: 70%; */
+  width: 700px;
 }
 
 /* =============================================================================
    Header
    ========================================================================== */
+
+header .container {
+  width: 1024px;
+}
 
 #mainbanner img {
   height: 152px;
@@ -295,20 +312,21 @@ iframe {
   font-size: 12pt;
   justify-content: center;
   /* margin-left:55px; */
-  margin: 0 auto 20px;
+  /* margin: 0 auto 20px; */
+  margin: 0 0 10px;
   text-transform: lowercase;
 }
 
 .nav-pills>.active>a, .nav-pills>.active>a:hover, .nav-pills>.active>a:focus, .nav>li>a:hover, .nav>li>a:focus {
-	background-color: none !important;
-	background: none;
-	color: #4fa4c1;
+  background-color: none !important;
+  background: none;
+  color: #4fa4c1;
 }
 
 .nav-pills>.active>a, .nav-pills>.active>a:hover, .nav-pills>.active>a:focus, .nav>li>a:hover, .nav>li>a:focus {
-	background-color: none !important;
-	background: none;
-	color: #fc6a00;
+  background-color: none !important;
+  background: none;
+  color: #fc6a00;
 }
 
 .nav-pills>li:nth-last-of-type(2)>a {
@@ -322,10 +340,12 @@ iframe {
    ========================================================================== */
 
 .sidebar {
-	color: #666666;
-	font-family: Gill Sans;
-	font-size: 17px;
-	font-weight: lighter;
+  color: #666666;
+  font-family: Gill Sans;
+  font-size: 17px;
+  font-weight: lighter;
+  /* margin: 0 0 10px; */
+  margin: 10px 0 0 20px;
   width: 300px;
 }
 
@@ -337,16 +357,16 @@ iframe {
 }
 
 .textwidget {
-	background: #ebfdfd;
-	padding-top: 10px;
-	padding-bottom: 15px;
-	padding-left: 10px;
-	padding-right: 10px;
+  background: #ebfdfd;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #social-icons {
   clear: both;
-	float: right;
+  float: right;
 }
 
 .workshops-ecourses #social-icons {
@@ -354,9 +374,9 @@ iframe {
 }
 
 .sidebar input {
-	/* background: #73c4e3; */
-	border: none;
-	width: 75%;
+  /* background: #73c4e3; */
+  border: none;
+  width: 75%;
 }
 
 
@@ -369,13 +389,13 @@ iframe {
 }
 
 .sidebar #s {
-	width: 50%;
-	border-radius: 0;
-	color:black !important;
+  width: 50%;
+  border-radius: 0;
+  color:black !important;
 }
 
 .sidebar #s placeholder {
-	text-indent: -99999px;
+  text-indent: -99999px;
 }
 
 .sidebar #searchsubmit {
@@ -385,50 +405,50 @@ width: 30%;
 }
 
 .archive h2 {
-	font-family: swagger;
-	background: #73c4e3;
-	font-size: 22px;
-	text-indent: 15px;
-	height: 31px;
-	text-align: left;
+  font-family: swagger;
+  background: #73c4e3;
+  font-size: 22px;
+  text-indent: 15px;
+  height: 31px;
+  text-align: left;
 }
 
 .archive h2 a {
-	position: relative;
-	top: -3px;
-	color: white;
-	font-weight: lighter;
-	border-left: solid 2px white;
-	border-right: solid 2px white;
-	padding-left: 10px;
-	padding-right: 10px;
-	text-align: left;
+  position: relative;
+  top: -3px;
+  color: white;
+  font-weight: lighter;
+  border-left: solid 2px white;
+  border-right: solid 2px white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
 }
 
 #searchform {
-	text-align: center;
+  text-align: center;
 }
 
 .widget {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .widget h3 {
-	background: #73c4e3;
-	text-indent: 15px;
-	color: white;
-	font-family: Gill Sans;
-	font-weight: lighter;
-	font-size: 18px;
+  background: #73c4e3;
+  text-indent: 15px;
+  color: white;
+  font-family: Gill Sans;
+  font-weight: lighter;
+  font-size: 18px;
 }
 
 .widget_categories, .widget_archive {
-	background: #ebfdfd;
-	padding-bottom: 3px;
+  background: #ebfdfd;
+  padding-bottom: 3px;
 }
 
 .widget_categories li, .widget_archive li {
-	margin-left: 13px;
+  margin-left: 13px;
 }
 
 .alignright {
@@ -478,19 +498,28 @@ color: white !important;
 }
 
 .single-post .entry-title h1 {
-	position: relative;
-	top: -3px;
-	color: white;
-	font-weight: lighter;
-	border-left: solid 2px white;
-	border-right: solid 2px white;
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 37px;
+  position: relative;
+  top: -3px;
+  color: white;
+  font-weight: lighter;
+  border-left: solid 2px white;
+  border-right: solid 2px white;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 37px;
 }
 
 .post-nav {
   clear: both;
+}
+
+.entry-summary div {
+  max-width: 100%;
+}
+
+ul.entry-tags {
+  max-width: 100%;
+  word-break: break-all;
 }
 
 /* ==========================================================================
@@ -568,43 +597,174 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   }
 }
 
+
+/* ==========================================================================
+   Workshops E-Courses
+   ========================================================================== */
+@media screen and (max-width: 960px) {
+  .page-template-workshops-php article {
+    display: flex;
+    justify-content: center;
+    width: 39%;
+    text-align: center;
+    padding: 0;
+    margin: 0 55px 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page-template-workshops-php article {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .page-template-workshops-php article {
+    display: inline-flex;
+    margin: 0 5%;
+    width: 40%;
+  }
+
+  .page-template-workshops-php article .hentry header {
+    align-self: baseline;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .page-template-workshops-php article {
+    justify-content: center;
+  }
+
+  .page-template-workshops-php article .hentry header {
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .page-template-workshops-php article {
+    clear: both;
+    width: 90%;
+    margin: 0 0 0 5%;
+  }
+
+}
+
+/* ==========================================================================
+   Videos
+   ========================================================================== */
+
+@media screen and (max-width: 960px) {
+  #archivevideos {
+    margin: 0 5%;
+    width: 35%;
+    display: inline-flex;
+  }
+
+    #archivevideos article {
+      width: auto !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  #archivevideos {
+    display: inline;
+    margin: 0 auto;
+  }
+
+  #archivevideos article {
+    width: 44% !important;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  #archivevideos article {
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #archivevideos article {
+    width: 45% !important;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  #archivevideos article {
+    justify-content: center;
+    margin: 0 4%;
+    text-align: left !important;
+    width: 90% !important;
+  }
+
+  #archivevideos .hentry header {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #archivevideos article {
+    margin: 0 3%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #archivevideos article {
+    margin: 0 auto;
+  }
+}
+
+/**
+ * Testimonials
+ */
+
+.page-id-118 table,
+.testimonials table {
+  width: 100%;
+}
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
+@media only screen and (max-width: 1040px) {
+  #videointo {
+    padding: 0 0 15px 11px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
-  
-.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
   max-width: 96vw;
 /*   max-width: 100%; */
 /*   max-width: 992px; */
   max-width: 96%;
   margin: 0 auto;
+  width: 100%;
+}
+
+header .container {
+  width: 100%;
 }
 
 #mainbanner img {
-/*   max-width: 100%; */
-  max-width: 992px;
-  max-width: 96vw;
-  max-width: 96%;
+  width: 100%;
 }
 
-.sidebar {
-  width: 26%;
+.main,
+.blog .main {
+  width: 70%;
 }
 
+.sidebar,
+.blog .sidebar {
+  width: 24%;
 }
 
-.blog .main {width: 70%;}
-
-.entry-summary div {
-  max-width: 100%;
-}
-}
-
-ul.entry-tags {
-  max-width: 100%;
-  word-break: break-all;
 }
 
 @media screen and (min-width: 600px) and (max-width: 960px) {
@@ -635,7 +795,8 @@ ul.entry-tags {
   }
 
   .blog .main {
-    margin: 30px 0 0 10px;
+    margin: 10px 0 0 10px;
+    width: 66%;
   }
 
   .sidebar #searchsubmit{
@@ -668,14 +829,42 @@ ul.entry-tags {
     list-style-type: none;
     padding: 0 2px 0 0;
   }
+
+  #videointo {
+    padding: 0 0 15px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+
+  .main,
+  .sidebar,
+  body.category-video .sidebar {
+    margin: 10px 0 0 20px;
+  }
+
+  .blog .main {
+    margin: 20px 0 0 20px;
+    width: 70%;
+  }
+
+  .sidebar {
+    padding: 10px 0 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  #mainbanner img {
+    max-width: 100vw;
+  }
+
   body.category-video .sidebar {
     margin: 0 10px;
   }
-  body.testimonials table {
-    width: auto;
+
+  .page-id-118 table,
+  .testimonials table {
+    width: 100%;
   }
 }
 
@@ -684,11 +873,12 @@ ul.entry-tags {
     margin: 0 0 0 20px;
   }
 
-  .main {
+  .main,
+  .blog .main {
     width: 66%;
   }
 
-  .sidebar {
+  .sidebar, .blog .sidebar {
     width: 27%;
   }
   .widget_categories li,
@@ -699,6 +889,88 @@ ul.entry-tags {
 
   .sidebar #s {
     width: 86%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /**
+   * Here as possible temporary hack.
+   * Delete the section under max-width: 576px; if I keep this
+   */
+  #mainbanner img {
+    width: auto;
+    object-fit: cover;
+    object-position: left;
+  }
+
+  header.banner {
+    max-width: initial;
+  }
+
+  header .container {
+    margin: 0;
+  }
+
+  #mainbanner {
+    margin: 0;
+  }
+
+  .page-template-workshops-php article {
+    width: 39%;
+    /* min-height: 300px; */
+  }
+}
+
+@media only screen and (max-width: 740px) {
+
+  .main,
+  .blog .main {
+    width: 94%;
+  }
+
+  .sidebar,
+  .blog .sidebar,
+  body.category-video .sidebar {
+    width: 94%;
+  }
+
+  .blog header h2 {
+    text-align: center;
+    padding: 0 10px;
+    text-indent: 0;
+  }
+
+  .blog header h2 a {
+    border: 0;
+    padding: 0;
+    position: static;
+  }
+
+  #searchform {
+    text-align: left;
+  }
+
+  #searchform div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #searchform label {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidebar #searchform #s {
+    width: 50%;
+    /*     display: inline; */
+    /*     margin: 0 0 0 25%; */
+    margin: 0 10px 10px;
+  }
+
+  #archivevideos h2 {
+    width: 210px;
   }
 }
 
@@ -770,16 +1042,41 @@ ul.entry-tags {
     height: 26px;
   }
 
+  .page-template-workshops-php article {
+        /* Remove display: inline-flex; */
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  #mainbanner img {
+    width: auto;
+  }
+
+  header.banner {
+    max-width: initial;
+  }
+
+  header .container {
+    margin: 0;
+  }
+
+  #mainbanner {
+    margin: 0;
+  }
+
+  .main,
+  .blog .main {
+    margin: 10px auto 20px;
+  }
+
   .blog header h2 {
     height: auto;
     min-height: 31px;
   }
 
   #wpadminbar {
-  	/* overflow: hidden; */
+    /* overflow: hidden; */
   }
 }
 
@@ -812,6 +1109,37 @@ ul.entry-tags {
     height: 26px;
     margin: 0 auto;
   }
+
+  .wp-block-image {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .wp-block-image .alignright {
+    float: none;
+    width: 100%;
+    margin: 16px 0;
+    padding: 0;
+  }
+
+  .wp-block-image img {
+    width: 100%;
+  }
+
+  .page-template-workshops-php .main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+/*    align-items: center; */
+  }
+
+  .page-template-workshops-php article {
+    width: 80%;
+/*    margin: 0 auto; */
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -828,121 +1156,5 @@ ul.entry-tags {
 @media screen and (max-width: 375px) {
   .sidebar #s {
     width: auto;
-  }
-}
-
-
-/* ==========================================================================
-   Workshops E-Courses
-   ========================================================================== */
-@media screen and (max-width: 960px) {
-.page-template-workshops-php article {
-  display: flex;
-  justify-content: center;
-  width: 39%;
-  text-align: center;
-  padding: 0;
-  margin: 0 55px 0 0;
-}
-
-}
-
-@media screen and (max-width: 768px) {
-  .page-template-workshops-php article {
-    width: 35%;
-  }
-}
-
-@media screen and (max-width: 601px) {
-  .page-template-workshops-php article {
-    display: inline-flex;
-    margin: 0 5%;
-    width: 40%;
-  }
-
-  .page-template-workshops-php article .hentry header {
-    align-self: baseline;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .page-template-workshops-php article {
-    justify-content: center;
-  }
-
-  .page-template-workshops-php article .hentry header {
-    clear: both;
-  }
-
-}
-
-@media screen and (max-width: 475px) {
-  .page-template-workshops-php article {
-    clear: both;
-    width: 90%;
-    margin: 0 0 0 5%;
-  }
-
-}
-
-/* ==========================================================================
-   Videos
-   ========================================================================== */
-
-@media screen and (max-width: 960px) {
-  #archivevideos {
-    margin: 0 5%;
-    width: 35%;
-    display: inline-flex;
-  }
-
-    #archivevideos article {
-      width: auto !important;
-    }
-}
-
-@media screen and (max-width: 768px) {
-  #archivevideos {
-    display: inline;
-    margin: 0 auto;
-  }
-  #archivevideos article {
-    width: 44% !important;
-  }
-}
-
-@media screen and (max-width: 601px) {
-  #archivevideos article {
-    display: flex !important;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  #archivevideos article {
-    width: 45% !important;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  #archivevideos article {
-    justify-content: center;
-    margin: 0 4%;
-    text-align: left !important;
-    width: 90% !important;
-  }
-
-  #archivevideos .hentry header {
-    width: 200px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  #archivevideos article {
-    margin: 0 3%;
-  }
-
-@media screen and (max-width: 375px) {
-  #archivevideos article {
-    margin: 0 auto;
   }
 }
