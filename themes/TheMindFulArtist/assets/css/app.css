@@ -329,10 +329,17 @@ header .container {
   color: #fc6a00;
 }
 
-.nav-pills>li:nth-last-of-type(2)>a {
-  /* margin: 0; */
+/* Nav Menu - Social Media Icons */
+.nav-pills>li:nth-last-of-type(1)>a,
+.nav-pills>li:nth-last-of-type(2)>a,
+.nav-pills>li:nth-last-of-type(3)>a {
   margin: 0 0 0 4px;
-  padding: 8px 0;
+  padding: 8px 4px;
+}
+
+#youtube-icon {
+  width: 90%;
+  border-radius: 7px;
 }
 
 /* ==========================================================================
