@@ -14,6 +14,7 @@
   - Footer
   - WordPress Generated Classes
   - WP Admin Bar Fix
+  - Mailchimp
   - Media Queries
   - Workshops E-Courses
   - Videos
@@ -728,6 +729,108 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .page-id-118 table,
 .testimonials table {
   width: 100%;
+}
+
+/* ==========================================================================
+   Mailchimp
+   ========================================================================== */
+
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+#mc_embed_signup form {
+  margin: 0;
+  /* padding: 6px 0 10px; */
+  padding: 6px 0 10px 1px;
+}
+
+#mc_embed_signup .mc-field-group label {
+  color: #666666;
+  font-family: Gill Sans;
+  font-size: 17px;
+  font-weight: lighter;
+  display: inline-block;
+  width: 30%;
+  color: #7f7f7f;
+  text-transform: lowercase;
+}
+
+#mc_embed_signup .mc-field-group input {
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 64%;
+  padding: 4px 4px;
+  margin: 0 0px 5px 6px;
+  box-sizing: border-box;
+  height: 28px;
+  text-indent: 2%;
+}
+
+#mc_embed_signup .asterisk {
+  display: none;
+}
+
+#mc_embed_signup {
+  background: initial;
+}
+
+#mc_embed_signup .mc-field-group {
+  min-height: initial;
+  width: 96%;
+}
+
+#mc_embed_signup .button {
+  width: 76px;
+  height: 28px;
+  color: white;
+  background: #fc6a00;
+  border-radius: 4px;
+  font-family: swagger;
+  font-size: 22px;
+  padding: 0;
+  line-height: 20px;
+}
+
+.clear.submit-container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar #searchsubmit {
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  height: 25px;
+}
+
+/* Mailchimp - Media Queries */
+@media screen and (min-width: 600px) and (max-width: 840px) {
+  #mc_embed_signup .mc-field-group input {
+    width: 100%;
+  }
+
+  #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    width: 86%;
+    margin: 0 0 6px 5px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  #mc_embed_signup {
+    display: flex;
+    justify-content: center;
+  }
+  #mc_embed_signup .mc-field-group label {
+    width: auto;
+    margin: 0 10px 0 0;
+  }
 }
 
 
