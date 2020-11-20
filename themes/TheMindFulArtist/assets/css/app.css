@@ -382,7 +382,7 @@ header .container {
 
 .sidebar input {
   /* background: #73c4e3; */
-  border: none;
+  border: 1px solid #aaa;
   width: 75%;
 }
 

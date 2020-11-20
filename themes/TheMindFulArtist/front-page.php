@@ -20,7 +20,7 @@ Template Name: Homepage
 </div>
 <div class="homebutton">
 
-<a href="/how-to-work-with-michele/"><img src="/assets/homebutton2.png"></a>
+<a href="/how-to-work-with-michele/"><img src="/assets/homebutton5a.png"></a>
 
 </div>
 </div>
