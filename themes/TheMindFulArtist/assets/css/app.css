@@ -382,7 +382,7 @@ header .container {
 
 .sidebar input {
   /* background: #73c4e3; */
-  border: 1px solid #aaa;
+  border: none;
   width: 75%;
 }
 
@@ -391,7 +391,8 @@ header .container {
   border: 0;
 }
 
-.sidebar input[type="text"] {
+.sidebar input[type="text"],
+#mc_embed_signup .mc-field-group input {
   border: 1px solid #ccc;
 }
 
