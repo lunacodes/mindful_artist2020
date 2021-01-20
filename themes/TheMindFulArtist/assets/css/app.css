@@ -136,11 +136,23 @@
 
 #homebuttons {
   margin: 0 auto;
+  max-width: 642px;
   width: 100%;
 }
 
 .homebutton {
+  max-width: 50%;
   float: left;
+}
+
+@media (max-width: 576px) {
+  .homebuttons {
+    max-width: initial;
+  }
+
+  .homebutton {
+    max-width: initial;
+  }
 }
 
 /* .homebutton img {
