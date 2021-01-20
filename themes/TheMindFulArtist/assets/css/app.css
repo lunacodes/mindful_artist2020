@@ -345,8 +345,8 @@ header .container {
 }
 
 #youtube-icon {
-  width: 90%;
   border-radius: 7px;
+  max-width: 90%;
 }
 
 /* ==========================================================================
