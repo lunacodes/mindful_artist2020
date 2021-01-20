@@ -7,7 +7,7 @@ Template Name: Homepage
 <div id="featured-area">
 <div id="homevideo">
 
-<iframe width="575" height="300" src="http://www.youtube.com/embed/WGn0x_GDuwI?list=UU5Fq1C7brytd70IOqSsOoVg" frameborder="0" allowfullscreen></iframe>
+<iframe width="642" height="335" src="https://www.youtube.com/embed/NrPu9g4_p08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
 
@@ -15,12 +15,12 @@ Template Name: Homepage
 
 <div class="homebutton">
 
-<a href="/category/video"><img src="/assets/homebutton1.png"></a>
+<a href="/category/video"><img src="/assets/homebutton1-scaled.png"></a>
 
 </div>
 <div class="homebutton">
 
-<a href="/how-to-work-with-michele/"><img src="/assets/homebutton5a.png"></a>
+<a href="/how-to-work-with-michele/"><img src="/assets/homebutton2-scaled.png"></a>
 
 </div>
 </div>
